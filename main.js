@@ -1,4 +1,4 @@
-const { Client, GatewayIntentBits } = require('discord.js')
+ const { Client, GatewayIntentBits } = require('discord.js')
 
  const client = new Client({
     intents: [
@@ -7,10 +7,13 @@ const { Client, GatewayIntentBits } = require('discord.js')
 		GatewayIntentBits.MessageContent,
 		GatewayIntentBits.GuildMembers,
         GatewayIntentBits.GuildBans
-        
+        //intents are needed so discord knows what your  bot is going to do, its almost like permissions 
+        //https://discordjs.guide/popular-topics/intents.html#privileged-intents
+    
         
     ]
 })
+
 
 const prefix = '-';
 
@@ -30,7 +33,7 @@ client.on('messageCreate', message =>{
         message.channel.send('https://www.youtube.com/@rascal7x');
 
     }
-    
+    //this is creating commands for the bot 
 });
 
 
