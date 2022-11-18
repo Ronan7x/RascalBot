@@ -1,5 +1,5 @@
 # BasedBot
-About
+
 A discord bot i made to manage my server. This is so I don't have to rely on other peoples bots
 
 I am learning how to make bots for discord for my personal servers, to do things like automate tasks and allow me to have a single bot in my server instead of requiring mutliple closed source bots. 
