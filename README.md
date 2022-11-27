@@ -1,4 +1,4 @@
-# BasedBot
+# This is a test bot
 
 A discord bot i made to manage my server. This is so I don't have to rely on other peoples bots
 
